@@ -1,0 +1,217 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+*, html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td {
+	margin: 0;
+	padding: 0;
+}
+
+fieldset, img {
+	border: 0;
+}
+
+address, caption, cite, code, dfn, em, th, var, optgroup {
+	font-style: inherit;
+	font-weight: inherit;
+}
+
+del, ins {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-size: 100%;
+	font-weight: normal;
+}
+
+q:before, q:after {
+	content: '';
+}
+
+abbr, acronym {
+	border: 0;
+	font-variant: normal;
+}
+
+em, cite {
+	font-style: normal;
+}
+
+legend {
+	color: #000;
+}
+
+input, button, textarea, select, optgroup, option {
+	outline: none;
+}
+
+input, button, textarea, select {
+ *font-size: 100%;
+ font-family:"Microsoft YaHei";
+}
+
+img {
+	vertical-align: top;
+	border: 0;
+}
+
+html, body {
+	color: #333;
+	font: normal 14px/24px "Microsoft YaHei" !important;/*"cochinArchaic",*/
+	background-color: #fff;
+}
+
+a {
+	color: #333;
+	outline: none;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+/*
+@ 普通小样式
+@ *
+*/
+
+.cursor {
+	cursor: pointer
+}
+
+.hide {
+	display: none !important
+}
+
+.show {
+	display: inline !important
+}
+
+.block {
+	display: block !important
+}
+
+.in_block {
+	display: inline-block !important;
+}
+
+.marginAuto {
+	margin-left: auto !important;
+	margin-right: auto !important
+}
+
+.m0 {
+	margin: 0 !important
+}
+
+.oh {
+	overflow: hidden !important
+}
+
+/*
+@ 定位
+@ *
+*/
+
+.pos-a {
+	position: absolute
+}
+
+.pos-r {
+	position: relative
+}
+
+.pos-f {
+	position: fixed
+}
+
+/*
+@ 对齐
+@ *
+*/
+
+.tl {
+	text-align: left
+}
+
+.tc {
+	text-align: center
+}
+
+.tr {
+	text-align: right
+}
+
+.vm {
+	vertical-align: middle
+}
+
+.vt {
+	vertical-align: top
+}
+
+.vb {
+	vertical-align: text-bottom
+}
+
+.text-d {
+	text-decoration: underline;
+}
+
+/*
+@ 浮动
+@ *
+*/
+
+.fr {
+	float: right !important
+}
+
+.fl {
+	float: left !important
+}
+
+.cb {
+	clear: both
+}
+
+.cl {
+	clear: left
+}
+
+.cr {
+	clear: right;
+}
+
+.clearFix,.clearfix {
+	clear: both;
+	zoom: 1
+}
+
+.clearFix:after,.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden
+}
+
+/*
+@ 背景与边框
+@ *
+*/
+
+.borderNone {
+	border: none !important
+}
+
+.bgNone {
+	background: none !important
+}
+
